@@ -242,3 +242,81 @@
 
 // factriol of the  number 
 
+// let n = +prompt("enter any fact number")
+
+// for(let i = 1 ; i <=n/2; i++){
+
+//   if(n%2 == 0){
+//     console.log(i);
+//   }
+  
+// }  console.log(n);
+
+
+//prime number
+
+// let n = +prompt("enter a number")
+
+// console.log(isPrime(n))
+
+// function isPrime(n){
+//      if( n <=1) return false;
+//      if(n ==2 ) return true;
+//      if(n % 2 == 0) return false;
+//       for(let i = 3 ; i<Math.floor(Math.sqrt(n));i+=2){ // i is increased by 2 
+//         if(n % i == 0){
+//           return false;
+//         }
+        
+//       }
+//       return true;
+// }
+
+
+// break : just break the whole loop
+// contiue : just skip that iterations
+
+/// WHILE LOOP
+
+
+//Start;
+// while(end){
+//code
+//change
+//}
+
+// let guss = prompt("enter the guss number")
+ 
+// while( guss != 'exit'){
+//   guss =  prompt("enter the number")
+// }
+
+
+
+// let digit = +prompt("enter the digit you want to sum")
+// let sum = 0;
+// let i = 0
+// while( i < digit){
+//    sum = sum +i;
+//    i++;
+// }
+
+// console.log(sum);
+
+ /// sum of the digit
+
+// let n = +prompt("enter the number")
+// let sum = 0;
+// while(n > 0){ // we are tracking number from behind
+// let rem = n % 10;
+
+// //{ let rev = rev * 10 + rem}
+
+// sum += rem;
+// n = Math.floor(n/10);
+// }
+
+// console.log(sum);
+
+
+
