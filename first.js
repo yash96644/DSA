@@ -318,9 +318,32 @@
 // DO WHILE LOOP
 
 
-do{
-  var n = +prompt("enter any number")
-}
-while(n != 0){
-  n = +prompt("enter the number (number should be zero to stop)")
-}
+// do{
+//   var n = +prompt("enter any number")
+// }
+// while(n != 0){
+//   n = +prompt("enter the number (number should be zero to stop)")
+// }
+
+
+
+
+// ARRAYS
+
+// let n =[ 1 , 3, "yash" , false]
+
+// console.log(n)
+// console.log(n[3])
+
+// let arr = [1,2,2,3,4,4,5]
+// let rem =[];
+// for(let i=0 ; i<arr.length ; i++){
+//     for(let j = i+1 ; i<arr.length ; j++){
+//         if(arr[i] === arr[j] && !rem.includes(arr[i])){
+//             rem.push(arr[i]);
+//         }
+//     }
+
+   
+// }
+//  console.log(rem)
