@@ -342,8 +342,48 @@
 //         if(arr[i] === arr[j] && !rem.includes(arr[i])){
 //             rem.push(arr[i]);
 //         }
-//     }
-
-   
+//     } 
 // }
 //  console.log(rem)
+
+
+//
+
+//js dont have static arrays by defalut js have dynamic arrays
+
+// dynamic array
+// let array = new Array(3);
+// let arr =[]
+// arr[1]=1;
+// arr[4]="yash";
+// console.log(arr);
+
+
+
+
+// taking input in arrays using prompt
+// let blank =[]
+// for(let i =0 ; i<4 ;i++){
+//     let n = +prompt("enter avale to store in array")
+//     blank.push(n);
+// }
+// console.log(blank);
+
+// let arr = new Array(5);
+// for(let i = 0 ; i<arr.length ; i++){
+//     arr[i] = +prompt("enter value in arr")
+// }
+// console.log(arr);
+
+
+
+//sum of arrays   (NaN if sum is inside the loop)
+ 
+// let arr = [1,3,4,5,6,7,8,1]
+// var sum =0;
+// for(let i=0 ; i<arr.length ; i++){
+//     sum = sum + arr[i]
+// }
+
+// console.log(sum);
+
