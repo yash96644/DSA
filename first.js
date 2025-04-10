@@ -387,3 +387,98 @@
 
 // console.log(sum);
 
+// removing largest element from the arry
+
+// let arr = [1,2,3,4,7,34,6]
+// let max = arr[0];
+
+// for(let i = 0 ; i < arr.length ; i++){
+//     if(max < arr[i]){
+//         max = arr[i]
+//     }
+// }
+// console.log(max);
+
+
+// finding secind largest number
+
+// let arr = [12,23,1,334,543,26];
+// let max =Math.max(arr[0] , arr[1]);
+// let smax = Math.min(arr[0] , arr[1]);
+
+// for(let i =2 ; i<arr.length ;i++){
+//     if(arr[i] > max){
+//         smax = max;
+//         max = arr[i];
+//     } else if(arr[i] > smax){
+//         smax = arr[i]
+//     }
+// }
+// console.log("first max" , max);
+
+// console.log( "sencnd ",smax);
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let rev = [];
+
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     rev.push(arr[i]);
+// }
+
+// console.log(rev);  // Output: [7, 6, 5, 4, 3, 2, 1]
+
+
+//without using push functions
+// let arr = [1,4,5,2,3]
+// let temp = new Array(arr.length)
+// let j = 0;
+
+// for(let i=arr.length - 1; i>=0 ; i--){
+//     temp[j] = arr[i];
+//     j++;
+// }
+
+// console.log(temp);
+
+
+// reverisng array without extra space
+
+
+// let arr = [1,2,3,4,5,6]
+// let i = 0 
+// let j = arr.length -1 ;
+
+// while(i<j){
+//     let temp = arr[i]
+//     arr[i] = arr[j]
+//     arr[j] = temp;
+
+//     i++
+//     j--
+// }
+
+// console.log(arr);
+
+
+// now all zero on left and all one in right (two pointer approch)
+
+
+
+let arr = [1,0,1,0,0,1,0,1]
+let i = 0
+let j = 0
+
+while(i<arr.length){
+   if(arr[i==0]){
+
+    let temp = arr[i]
+    arr[i] = arr[j]
+    arr[j] = temp
+
+    j++
+}
+i++
+}
+console.log(arr);
+
