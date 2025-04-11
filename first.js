@@ -314,9 +314,7 @@
 //   console.log("not strog number")
 // }
 
-
 // DO WHILE LOOP
-
 
 // do{
 //   var n = +prompt("enter any number")
@@ -324,9 +322,6 @@
 // while(n != 0){
 //   n = +prompt("enter the number (number should be zero to stop)")
 // }
-
-
-
 
 // ARRAYS
 
@@ -342,10 +337,9 @@
 //         if(arr[i] === arr[j] && !rem.includes(arr[i])){
 //             rem.push(arr[i]);
 //         }
-//     } 
+//     }
 // }
 //  console.log(rem)
-
 
 //
 
@@ -357,9 +351,6 @@
 // arr[1]=1;
 // arr[4]="yash";
 // console.log(arr);
-
-
-
 
 // taking input in arrays using prompt
 // let blank =[]
@@ -375,10 +366,8 @@
 // }
 // console.log(arr);
 
-
-
 //sum of arrays   (NaN if sum is inside the loop)
- 
+
 // let arr = [1,3,4,5,6,7,8,1]
 // var sum =0;
 // for(let i=0 ; i<arr.length ; i++){
@@ -399,7 +388,6 @@
 // }
 // console.log(max);
 
-
 // finding secind largest number
 
 // let arr = [12,23,1,334,543,26];
@@ -418,7 +406,6 @@
 
 // console.log( "sencnd ",smax);
 
-
 // let arr = [1, 2, 3, 4, 5, 6, 7];
 // let rev = [];
 
@@ -427,7 +414,6 @@
 // }
 
 // console.log(rev);  // Output: [7, 6, 5, 4, 3, 2, 1]
-
 
 //without using push functions
 // let arr = [1,4,5,2,3]
@@ -441,12 +427,10 @@
 
 // console.log(temp);
 
-
 // reverisng array without extra space
 
-
 // let arr = [1,2,3,4,5,6]
-// let i = 0 
+// let i = 0
 // let j = arr.length -1 ;
 
 // while(i<j){
@@ -460,25 +444,153 @@
 
 // console.log(arr);
 
-
 // now all zero on left and all one in right (two pointer approch)
 
+// let arr = [1,0,1,0,0,1,0,1]
+// let i = 0
+// let j = 0
+
+// while(i<arr.length){
+//    if(arr[i] == 0){
+
+//     let temp = arr[i]
+//     arr[i] = arr[j]
+//     arr[j] = temp
+
+//     j++
+// }
+// i++
+// }
+// console.log(arr);
+
+// STRING
+
+// traversal ovre a string
+
+// let name ='yash'
+// for(let i = 0 ; i <name.length ; i++){
+//     console.log(name[i])
+// }
+
+// reversing an string
+
+// let n = "yash"
+// for(let i = n.length-1; i>=0 ; i-- ){
+//     console.log(n[i])
+// }
+
+// revering a string into one line
+// let n ="yash"
+// let rev = ""
+
+// for( let i = n.length-1 ; i>=0 ; i--){
+//     rev = rev + n.charAt(i)
+// }
+// console.log(rev);
+
+// string is palidrome or not
+//  let n ="yash"
+//  let pal = n;
+// let rev = ""
+
+// for( let i = n.length-1 ; i>=0 ; i--){
+//     rev = rev + n.charAt(i)
+// }
+// if(rev == pal){
+//     console.log("pal");
+
+// }else{
+// console.log("not pal");}
+
+// palidrome string usning 2 pointer approch
+
+// let n = prompt("enter a string")
+// let pla = true;
+// let i = 0;
+// let j = n.length-1;
+
+// while(i<j){
+//     if(n.charAt(i) != n.charAt(j)){
+//         pal = false;
+// break;
+//     }
+//     i++
+//     j--
+// }
+// if(pal){
+//     console.log("paldroine string");
+
+// }else{
+//     console.log("not a paldrone string");
+
+// }
+
+// ADVANCE ARRAYS
+// left rotation by 1 elemet
+
+// let arr =[1,2,3,4,5]
+// let i = arr.length-1;
+// let j = arr.length;
+
+// while(i<j){
+//     if(arr[i] != 0){
+//         let temp = arr[i]
+//         arr[i] = arr[j]
+//         arr[j] = temp
+//         i--
+//         j--
+//     }
+
+// }
+// console.log(arr);
+
+// left shifting by 1 index
+// let n = [1,2,3,4,5]
+// let copy = n[0]
+
+// for(let i = 0 ; i< n.length-1 ; i++){
+//     n[i] = n[i+1]
+// }
+
+// n[n.length-1] = copy
+
+// console.log(n);
+
+// let arr = [1,2,3,4,5]
+// let copy = arr[arr.length -1]
+
+// for(let i=arr.length-1 ; i> 0 ;i--){
+//     arr[i] = arr[i - 1]
+// }
+
+// arr[0] = copy
+
+// console.log(arr);
+
+// nested looping
+
+// for (let j = 0; j < 3; j++) {
+//   console.log(j + 1, "excuations");
+
+//   for (let i = 0; i < 3; i++) {
+//     console.log("hello");
+//   }
+// }
 
 
-let arr = [1,0,1,0,0,1,0,1]
-let i = 0
-let j = 0
+// k elemets
 
-while(i<arr.length){
-   if(arr[i==0]){
+// let arr = [1,2,3,4,5]
+// let k = +prompt("enter an number to rotate right")
 
-    let temp = arr[i]
-    arr[i] = arr[j]
-    arr[j] = temp
+//    for(let j = 0; j < k ; j++){
+//     let copy = arr[0]
+// for(let i = 0 ; i <arr.length - 1  ; i++){
+//        arr[i] = arr[i +1]
+// }
 
-    j++
-}
-i++
-}
-console.log(arr);
+// arr[arr.length -1] = copy
+//    }
 
+//    console.log(arr);
+   
