@@ -594,3 +594,206 @@
 
 //    console.log(arr);
    
+
+// Linklist
+// in js linklist is in the form of object
+
+// for example :{
+// val : 100 
+// next :  memory address of next node }
+
+
+
+// const list ={
+//     head :{
+//         value : 1,
+//         next :{
+//              value :2,
+//              next:{
+//                 value:null,
+//              }
+//         }
+
+//     }
+// }
+
+
+// const list ={
+//     head : {
+//         value : 1,
+//         next:{
+//             value:2,
+//             next:{
+//                 value:null,
+//             }
+//         }
+//     }
+// }
+
+// console.log(list);
+
+// function list(data){
+//     this.data  = data; //// in this data will come
+//     this.next = null;  // the next node will be directly marked as a null node 
+// }
+
+// var head = new list(2)
+// var mid = new list(5)
+// var tail= new list(3)
+
+// head.next = mid ; // node ke andar ek or node banega mltb referance de raaha hain next node ka 
+// mid.next = tail;  // object ke andr object 
+// console.log(head);
+
+
+
+// INSERATION IN LINKEDLIST
+
+
+//     // insert at start
+
+//     function node(data){
+//         this.data = data;
+//         this.next = null;
+//     }
+   
+
+//     var head = new node(4)
+//     var mid = new node(9)
+  
+// // creating a linklist between head nd mid and newNode
+
+// head.next = mid;
+
+// let newNode = new node(12)
+// mid.next = newNode;
+
+//     console.log(head);
+
+
+// function node(data){
+//     this.data = data;
+//     this.next = null;
+// }
+
+
+// var head = new node(1);
+// var mid = new node(2);
+// var tail = new node(3)
+// head.next = mid;
+  
+
+// tail.next = head;
+// head = tail;
+
+// console.log(head.data);
+
+// function node(data){
+//     this.data = data;
+//     this.next = null;
+// }
+
+
+
+// var head = new node(1);
+// var mid = new node(2)
+// var tail = new node(3)
+
+
+// head.next = mid;
+// mid.next = tail;
+// tail.next = null;
+
+
+// console.log(head);
+
+
+
+
+// pattern progaming 
+
+// let prompt = require('prompt-sync')();
+// let a = prompt("enter a number")
+
+// process.stdout.write(a)
+
+// process.stdout.write("world ")
+
+// for( let i = 0 ; i < 5 ; i++){
+//     process.stdout.write("*")     // ****
+    
+// }
+
+// for(let i = 0 ; i < 5 ; i++){
+//     for(let j =0 ; j < 5 ; j++){
+//         process.stdout.write("* ") 
+//     }
+//     console.log();
+    
+// }
+
+// for(let i = 1; i<=5 ; i++){
+//     let ch = 65;
+//     for(let j = 1 ; j <=i ; j++ ){
+//         process.stdout.write(String.fromCharCode(ch) + " ")
+//         ch++; 
+//     }
+//     console.log()
+// }
+
+
+
+
+// for( let i = 0 ; i<5 ; i++){
+//     for(let j=i ; j<5 ; j++){
+//         process.stdout.write( " *")
+//     }
+//     console.log();
+    
+// }
+
+
+
+// for(let i=0 ; i<5 ; i++){
+//     for(let j=0 ;j<5-i ; j++){
+//         process.stdout.write(" ")
+//     }
+//     for(let j= 0 ; j < i ; j++){
+//         process.stdout.write("*")
+//     }
+//     console.log();
+    
+// }
+
+
+// shorting algo 
+//{bubble , selection , insertion}
+
+
+// bubble sort
+
+
+
+// let arr =[4,3,1,2]
+// let count = 0;
+
+// for(let i=0 ; i<arr.length-1; i++ ){
+
+//     for(let j = 0; j<arr.length -i-1; j++ ){
+        
+     
+//             if(arr[j] > arr[j+1]){
+//                 let temp = arr[j];
+//                 arr[j] = arr[j+1]
+//                 arr[j+1] = temp;
+                
+                 
+//     count++;
+    
+
+              
+//             }
+            
+//     }
+// } console.log(arr)
+// console.log(count);
