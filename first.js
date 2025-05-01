@@ -797,3 +797,81 @@
 //     }
 // } console.log(arr)
 // console.log(count);
+
+
+
+
+// function num(n){
+//     if(n==0) return;
+//     console.log("hello");
+//     // num(n-1)
+    
+// }
+
+// num(4)
+
+// n=5;
+// for(let i=n ; i>0 ;--i){
+//     console.log(i);
+    
+// }
+
+
+// function num(n){
+//     if(n==0) return
+//     console.log(n);
+//     num(--n)
+    
+// }
+// num(6)
+
+// function num(n){
+//     if(n==0) return
+    
+//     num(n-1)
+//     console.log(n);
+    
+// }
+// num(6)
+// let n = 6;
+// let fact = 1;
+// for(let i=n ; i>=1 ; i--){
+//     fact = fact*i;
+// }
+// console.log(fact);
+// var totalNumbers = function(digits) {
+//     sum =0;
+//     while( digits > 0){
+//         let total = totalNumber(digits-1) * totalNumber(digits-2);
+//         if(total % 2 == 0){
+//             sum+=total;
+//         }
+//     }
+    
+// };
+
+
+
+
+
+
+
+// let nums = [1,2,3,4]
+// if(nums == 0 || nums == 1) return nums;
+// while(nums > 0){
+//     ret
+
+// }
+
+function fib(n){
+    if(n === 0|| n == 1){
+        return n;
+    }
+
+
+    while(n>0){
+        return fib(n-1) + fib(n-2)
+    }
+};
+
+console.log(fib(7))
